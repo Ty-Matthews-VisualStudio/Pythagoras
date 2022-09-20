@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AAAA290B-7AAA-49BF-801D-090770BB86F5}</ProjectGuid>
+    <RootNamespace>Pythagoras</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)DEBUG</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)DEBUG</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PYTHON32BIT;%(PreprocessorDefinitions);L_SOLUTIONDIR=R"($(SolutionDir))";L_PLATFORM=R"($(Platform))";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Libraries\boost_1_80_0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Python36-32bit\libs;C:\Users\A4LG8ZZ\Documents\Code\boost_1_63_0\stage\x86\lib</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions);L_SOLUTIONDIR=R"($(SolutionDir))";L_PLATFORM=R"($(Platform))";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Libraries\boost_1_80_0</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\a4lg8zz\Python\libs;C:\Code\Libraries\boost_1_80_0\stage\x64\lib</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);L_SOLUTIONDIR=R"($(SolutionDir))";L_PLATFORM=R"($(Platform))";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Libraries\boost_1_80_0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Python36-32bit\libs;C:\Users\A4LG8ZZ\Documents\Code\boost_1_63_0\stage\x86\lib</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions);L_SOLUTIONDIR=R"($(SolutionDir))";L_PLATFORM=R"($(Platform))";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Libraries\boost_1_80_0</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\a4lg8zz\Python\libs;C:\Code\Libraries\boost_1_80_0\stage\x64\lib</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\MemBuffer.h" />
+    <ClInclude Include="..\Common\PythagorasEngineMemory.h" />
+    <ClInclude Include="..\Common\RegistryHelper.h" />
+    <ClInclude Include="..\Common\Structs.h" />
+    <ClInclude Include="..\Common\Utility.h" />
+    <ClInclude Include="AppSettingsDlg.h" />
+    <ClInclude Include="ButtonMine.h" />
+    <ClInclude Include="CustomShellListCtrl.h" />
+    <ClInclude Include="FunctionsView.h" />
+    <ClInclude Include="NewScriptDlg.h" />
+    <ClInclude Include="PPFileTabDatabase.h" />
+    <ClInclude Include="PPFileTabExplorer.h" />
+    <ClInclude Include="PPFileTabRegex.h" />
+    <ClInclude Include="PSFileExplorer.h" />
+    <ClInclude Include="RegExHistoryDlg.h" />
+    <ClInclude Include="RegistrySettings.h" />
+    <ClInclude Include="ScriptsView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Pythagoras.h" />
+    <ClInclude Include="PythagorasDoc.h" />
+    <ClInclude Include="PythagorasView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Testing.h" />
+    <ClInclude Include="Unzip.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="Zip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\MemBuffer.cpp" />
+    <ClCompile Include="..\Common\PythagorasEngineMemory.cpp" />
+    <ClCompile Include="..\Common\RegistryHelper.cpp" />
+    <ClCompile Include="..\Common\Utility.cpp" />
+    <ClCompile Include="AppSettingsDlg.cpp" />
+    <ClCompile Include="ButtonMine.cpp" />
+    <ClCompile Include="CustomShellListCtrl.cpp" />
+    <ClCompile Include="FunctionsView.cpp" />
+    <ClCompile Include="NewScriptDlg.cpp" />
+    <ClCompile Include="PPFileTabDatabase.cpp" />
+    <ClCompile Include="PPFileTabExplorer.cpp" />
+    <ClCompile Include="PPFileTabRegex.cpp" />
+    <ClCompile Include="PSFileExplorer.cpp" />
+    <ClCompile Include="RegExHistoryDlg.cpp" />
+    <ClCompile Include="RegistrySettings.cpp" />
+    <ClCompile Include="ScriptsView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="Pythagoras.cpp" />
+    <ClCompile Include="PythagorasDoc.cpp" />
+    <ClCompile Include="PythagorasView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Testing.cpp" />
+    <ClCompile Include="Unzip.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="Zip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pythagoras.reg" />
+    <None Include="res\Pythagoras.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pythagoras.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AddAll.bmp" />
+    <Image Include="res\AddSelected.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\DeleteAll.bmp" />
+    <Image Include="res\DeleteButton.bmp" />
+    <Image Include="res\DeleteUnselected.bmp" />
+    <Image Include="res\DownArrow.bmp" />
+    <Image Include="res\Execute.bmp" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\Pythagoras.ico" />
+    <Image Include="res\PythagorasDoc.ico" />
+    <Image Include="res\RunSelected.bmp" />
+    <Image Include="res\SelectAll.bmp" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\UpArrow.bmp" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Pythagoras.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

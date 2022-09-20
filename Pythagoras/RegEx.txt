@@ -1,0 +1,3 @@
+And condition: (?=.*LM100)(?=.*PEIS)
+
+Or condition: ((?=.*OCV)|(?=.*PEIS))

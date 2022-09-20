@@ -1,0 +1,914 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\Pythagoras.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxprint.rc""        // printing/print preview resources\r\n"
+    "#include ""afxribbon.rc""        // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Pythagoras.ico"
+
+IDR_PythagorasTYPE      ICON                    "res\\PythagorasDoc.ico"
+
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+IDB_UPARROW             BITMAP                  "res\\UpArrow.bmp"
+
+IDB_DOWNARROW           BITMAP                  "res\\DownArrow.bmp"
+
+IDB_EXECUTE             BITMAP                  "res\\Execute.bmp"
+
+IDB_DELETE              BITMAP                  "res\\DeleteButton.bmp"
+
+IDB_ADDSELECTED         BITMAP                  "res\\AddSelected.bmp"
+
+IDB_SELECTALL           BITMAP                  "res\\SelectAll.bmp"
+
+IDB_DELETEALL           BITMAP                  "res\\DeleteAll.bmp"
+
+IDB_DELETEUNSELECTED    BITMAP                  "res\\DeleteUnselected.bmp"
+
+IDB_ADDALL              BITMAP                  "res\\AddAll.bmp"
+
+IDB_RUNSELECTED         BITMAP                  "res\\RunSelected.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_APP_REFRESH_SCRIPTS
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Settings",                    ID_FILE_SETTINGS
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars and Docking Windows"
+        BEGIN
+            MENUITEM "&Scripts",                    ID_VIEW_SCRIPTS
+            MENUITEM "&Functions",                  ID_VIEW_FUNCTIONS
+            MENUITEM "&Output",                     ID_VIEW_TOOLBAR
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Troubleshoot Issues",         ID_HELP_TROUBLESHOOTISSUES
+        MENUITEM "&About Pythagoras...",        ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Run &Selected",               32783
+    END
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "Sorting"
+    BEGIN
+        MENUITEM "&Sort Alphabeticaly",         ID_SORTING_SORTALPHABETIC
+        MENUITEM "Sort by &Type",               ID_SORTING_SORTBYTYPE
+        MENUITEM "Sort by Acc&ess",             ID_SORTING_SORTBYACCESS
+        MENUITEM "Group by t&ype",              ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "Explorer"
+    BEGIN
+        MENUITEM "&Edit",                       ID_EXPLORER_EDIT
+        MENUITEM "Open &Folder",                ID_OPEN_FOLDER
+        MENUITEM "&New Script",                 32784
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "C&lear",                      ID_EDIT_CLEAR
+        MENUITEM "&Save",                       ID_EDIT_SAVE
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "&About Pythagoras...",        ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (&Blue Style)",   ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (B&lack Style)",  ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (&Silver Style)", ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (&Aqua Style)",   ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Win&dows 7",                  ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F7,          ID_RUN_SELECTED_ENTRIES, VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 184, 77
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Pythagoras"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Pythagoras, Version 1.2.3.7",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2020 Tyler Matthews\ttsmatthews@mmm.com\t A4LG8ZZ",IDC_STATIC,42,26,114,23
+    DEFPUSHBUTTON   "OK",IDOK,127,56,50,14,WS_GROUP
+    PUSHBUTTON      "Get Source Code",IDC_BUTTON_SOURCE_CODE,7,56,62,14
+END
+
+IDD_PYTHAGORAS_FORM DIALOGEX 0, 0, 696, 323
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_FILES,7,33,143,283,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "ex",IDC_BUTTON_EXECUTE,"Button",BS_OWNERDRAW | WS_TABSTOP,153,33,18,18
+    CONTROL         "up",IDC_BUTTON_FILES_UP,"Button",BS_OWNERDRAW | WS_TABSTOP,153,51,18,18
+    CONTROL         "dn",IDC_BUTTON_FILES_DOWN,"Button",BS_OWNERDRAW | WS_TABSTOP,153,69,18,18
+    CONTROL         "del",IDC_BUTTON_FILES_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,153,87,18,18
+    CONTROL         "del a",IDC_BUTTON_FILES_DELETE_ALL,"Button",BS_OWNERDRAW | WS_TABSTOP,153,105,18,18
+    CONTROL         "sall",IDC_BUTTON_FILES_SELECT_ALL,"Button",BS_OWNERDRAW | WS_TABSTOP,153,125,18,18
+    CONTROL         "<<<",IDC_BUTTON_FILES_ADD_SELECTED,"Button",BS_OWNERDRAW | WS_TABSTOP,153,143,18,18
+    PUSHBUTTON      "Del",IDC_BUTTON_DELETE,153,181,17,11,NOT WS_VISIBLE
+    PUSHBUTTON      "Dbg",IDC_BUTTON_DEBUG,153,195,17,11,NOT WS_VISIBLE
+    CONTROL         "",IDC_PROGRESS_EXECUTION,"msctls_progress32",PBS_MARQUEE | WS_BORDER,7,9,164,14
+    LTEXT           "Files to process:",IDC_STATIC_LIST,7,24,145,8
+    CONTROL         "",IDC_FILE_PROPSHEET_PLACEHOLDER,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,173,7,516,309
+END
+
+IDD_FILE_TAB_EXPLORER DIALOGEX 0, 0, 508, 300
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "Explorer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC_EXPLORER_TREE_PLACEHOLDER,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,8,8,149,284
+    CONTROL         "",IDC_STATIC_EXPLORER_LIST_PLACEHOLDER,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,164,8,336,284
+END
+
+IDD_DIALOG_TESTING DIALOGEX 0, 0, 310, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,199,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,157,50,14
+    CONTROL         "",IDC_MFCSHELLLIST_TESTING,"MfcShellList",WS_BORDER | WS_TABSTOP | 0x841,7,7,117,116
+END
+
+IDD_FILE_TAB_REGEX DIALOGEX 0, 0, 509, 297
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Regex"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MFCEDITBROWSE_ROOT_FOLDER,"MfcEditBrowse",WS_BORDER | WS_TABSTOP | 0x880,7,17,203,14
+    EDITTEXT        IDC_EDIT_REGEX_WILDCARD,212,17,38,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_EDIT_REGEX,253,17,197,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "Search",IDC_BUTTON_RUN_REGEX,452,17,38,14
+    CONTROL         "Recurse subfolders",IDC_CHECK_RECURSE_SUBFOLDERS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,34,122,10
+    CONTROL         "Clear search list before running",IDC_CHECK_CLEAR_SEARCH_LIST,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,46,119,10
+    LTEXT           "Search option:",IDC_STATIC,159,35,49,8
+    COMBOBOX        IDC_COMBO_REGEX_SEARCH_OPTION,212,34,92,49,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Retrieve parent folder name",IDC_CHECK_REGEX_RETRIEVE_PARENT_FOLDER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,159,46,108,10
+    CONTROL         "runs",IDC_BUTTON_REGEX_RUN_SELECTED,"Button",BS_OWNERDRAW | WS_TABSTOP,354,58,18,18
+    CONTROL         "duns",IDC_BUTTON_REGEX_CLEAR_UNSELECTED,"Button",BS_OWNERDRAW | WS_TABSTOP,375,58,18,18
+    CONTROL         "rem",IDC_BUTTON_REGEX_REMOVE,"Button",BS_OWNERDRAW | WS_TABSTOP,396,58,18,18
+    CONTROL         "rall",IDC_BUTTON_REGEX_CLEAR_LIST,"Button",BS_OWNERDRAW | WS_TABSTOP,417,58,18,18
+    CONTROL         "sall",IDC_BUTTON_REGEX_SELECT_ALL,"Button",BS_OWNERDRAW | WS_TABSTOP,438,58,18,18
+    CONTROL         "adsel",IDC_BUTTON_REGEX_ADD_SELECTED,"Button",BS_OWNERDRAW | WS_TABSTOP,459,58,18,18
+    CONTROL         "Add All",IDC_BUTTON_REGEX_ADD_ALL,"Button",BS_OWNERDRAW | WS_TABSTOP,480,58,18,18
+    LISTBOX         IDC_LIST_SEARCH_RESULTS,7,78,495,202,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "Select root folder:",IDC_STATIC,7,7,60,8
+    LTEXT           "Enter regular expression:",IDC_STATIC,253,7,84,8
+    LTEXT           "Search results:",IDC_STATIC,7,65,51,8
+    LTEXT           "Wildcard:",IDC_STATIC,212,7,32,8
+    PUSHBUTTON      "...",IDC_BUTTON_HISTORY,491,17,11,14
+    PUSHBUTTON      "Save",IDC_BUTTON_REGEX_SAVE,415,38,50,14
+END
+
+IDD_DIALOG_APP_SETTINGS DIALOGEX 0, 0, 423, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pythagoras Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "My Documents",IDC_RADIO_LOCAL_SCRIPTS_MYDOCUMENTS,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,16,24,63,10
+    CONTROL         "Custom Folder:",IDC_RADIO_LOCAL_SCRIPTS_CUSTOM_FOLDER,
+                    "Button",BS_AUTORADIOBUTTON,16,41,66,10
+    CONTROL         "My Documents",IDC_RADIO_COMMON_SCRIPTS_MYDOCUMENTS,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,217,24,63,10
+    CONTROL         "Custom Folder:",IDC_RADIO_COMMON_SCRIPTS_CUSTOM_FOLDER,
+                    "Button",BS_AUTORADIOBUTTON,217,41,66,10
+    CONTROL         "Download from FTP server",IDC_CHECK_APP_SETTINGS_DOWNLOAD_COMMON,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,217,76,103,10
+    EDITTEXT        IDC_EDIT_FTP_ADDRESS,289,91,116,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FTP_USERNAME,289,109,116,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FTP_PASSWORD,289,127,116,14,ES_AUTOHSCROLL
+    CONTROL         "Clear output before executing function",IDC_CHECK_APP_SETTINGS_CLEAR_OUTPUT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,131,141,10
+    DEFPUSHBUTTON   "OK",IDOK,310,155,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,366,155,50,14
+    LTEXT           "Server Address:",IDC_STATIC,229,92,54,8
+    LTEXT           "FTP Username:",IDC_STATIC,229,109,52,8
+    LTEXT           "Script editor:",IDC_STATIC,7,97,44,8
+    LTEXT           "FTP Password:",IDC_STATIC,229,127,50,8
+    PUSHBUTTON      "Zip common",IDC_BUTTON_APP_SETTINGS_ZIP_COMMON,329,22,56,14
+    GROUPBOX        "Local Scripts Location",IDC_STATIC,7,7,194,86
+    GROUPBOX        "Common Scripts Location",IDC_STATIC,206,7,208,140
+    CONTROL         "",IDC_MFCEDITBROWSE_APP_SETTINGS_LOCAL_SCRIPT_FOLDER,
+                    "MfcEditBrowse",WS_BORDER | WS_TABSTOP | 0x80,27,55,166,14
+    CONTROL         "",IDC_MFCEDITBROWSE_APP_SETTINGS_COMMON_SCRIPT_FOLDER,
+                    "MfcEditBrowse",WS_BORDER | WS_TABSTOP | 0x80,227,55,178,14
+    CONTROL         "",IDC_MFCEDITBROWSE_APP_SETTINGS_SCRIPT_EDITOR,
+                    "MfcEditBrowse",WS_BORDER | WS_TABSTOP | 0x80,7,110,194,14
+END
+
+IDD_FILE_TAB_DATABASE DIALOGEX 0, 0, 509, 299
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Database"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_DIALOG_REGEX_HISTORY DIALOGEX 0, 0, 483, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RegEx History"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Load",IDOK,320,208,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,426,208,50,14
+    CONTROL         "",IDC_LIST_ENTRIES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,469,198
+    PUSHBUTTON      "Clear History",IDC_BUTTON_CLEAR_HISTORY,373,208,50,14
+END
+
+IDD_DIALOG_NEW_SCRIPT DIALOGEX 0, 0, 195, 77
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New script"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,7,19,181,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,82,56,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,138,56,50,14
+    LTEXT           "Please enter a name for this new script:",IDC_STATIC,7,7,132,8
+END
+
+IDD_DIALOG_SAVED_SETS DIALOGEX 0, 0, 310, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,199,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,157,50,14
+    LISTBOX         IDC_LIST_SAVED_SETS,7,18,103,98,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Saved File/Folder Sets:",IDC_STATIC,7,7,78,8
+    LISTBOX         IDC_LIST_FILES,119,18,184,98,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Files and Folders in Set:",IDC_STATIC,119,7,80,8
+    PUSHBUTTON      "New",IDC_BUTTON_NEW,65,124,50,14
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,7,123,50,14
+    PUSHBUTTON      "Replace",IDC_BUTTON_REPLACE,122,124,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,3,7
+ PRODUCTVERSION 1,2,3,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "3M Company"
+            VALUE "FileDescription", "Pythagoras, By Tyler Matthews"
+            VALUE "FileVersion", "1.2.3.7"
+            VALUE "InternalName", "Pythagoras.exe"
+            VALUE "LegalCopyright", "(c) 3M Company.  All rights reserved."
+            VALUE "OriginalFilename", "Pythagoras.exe"
+            VALUE "ProductName", "Pythagoras"
+            VALUE "ProductVersion", "1.2.3.7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_PYTHAGORAS_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 689
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 316
+    END
+
+    IDD_FILE_TAB_EXPLORER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 501
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_DIALOG_TESTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_FILE_TAB_REGEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 502
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_DIALOG_APP_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 416
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_FILE_TAB_DATABASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 502
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 292
+    END
+
+    IDD_DIALOG_REGEX_HISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 476
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DIALOG_NEW_SCRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_DIALOG_SAVED_SETS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PYTHAGORAS_FORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FILE_TAB_EXPLORER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_TESTING AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FILE_TAB_REGEX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_APP_SETTINGS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FILE_TAB_DATABASE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_REGEX_HISTORY AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_NEW_SCRIPT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SAVED_SETS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_TESTING DLGINIT
+BEGIN
+    IDC_MFCSHELLLIST_TESTING, 0x37c, 88, 0
+0x4d3c, 0x4346, 0x6853, 0x6c65, 0x4c6c, 0x7369, 0x4374, 0x7274, 0x5f6c, 
+0x6e45, 0x6261, 0x656c, 0x6853, 0x6c65, 0x436c, 0x6e6f, 0x6574, 0x7478, 
+0x654d, 0x756e, 0x463e, 0x4c41, 0x4553, 0x2f3c, 0x464d, 0x5343, 0x6568, 
+0x6c6c, 0x694c, 0x7473, 0x7443, 0x6c72, 0x455f, 0x616e, 0x6c62, 0x5365, 
+0x6568, 0x6c6c, 0x6f43, 0x746e, 0x7865, 0x4d74, 0x6e65, 0x3e75, 
+    0
+END
+
+IDD_FILE_TAB_REGEX DLGINIT
+BEGIN
+    IDC_MFCEDITBROWSE_ROOT_FOLDER, 0x37c, 42, 0
+0x4d3c, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 0x4d5f, 0x646f, 
+0x3e65, 0x3c32, 0x4d2f, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 
+0x4d5f, 0x646f, 0x3e65, 
+    0
+END
+
+IDD_DIALOG_APP_SETTINGS DLGINIT
+BEGIN
+    IDC_MFCEDITBROWSE_APP_SETTINGS_LOCAL_SCRIPT_FOLDER, 0x37c, 42, 0
+0x4d3c, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 0x4d5f, 0x646f, 
+0x3e65, 0x3c32, 0x4d2f, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 
+0x4d5f, 0x646f, 0x3e65, 
+    IDC_MFCEDITBROWSE_APP_SETTINGS_COMMON_SCRIPT_FOLDER, 0x37c, 42, 0
+0x4d3c, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 0x4d5f, 0x646f, 
+0x3e65, 0x3c32, 0x4d2f, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 
+0x4d5f, 0x646f, 0x3e65, 
+    IDC_MFCEDITBROWSE_APP_SETTINGS_SCRIPT_EDITOR, 0x37c, 42, 0
+0x4d3c, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 0x4d5f, 0x646f, 
+0x3e65, 0x3c31, 0x4d2f, 0x4346, 0x6445, 0x7469, 0x7242, 0x776f, 0x6573, 
+0x4d5f, 0x646f, 0x3e65, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Pythagoras\n\nPythagoras\nPythagoras Files (*.pyt)\n.pyt\nPythagoras.Document\nPythagoras.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Pythagoras"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_REFRESH_SCRIPTS  "Refresh scripts\nRefresh"
+    ID_EXPLORER_EDIT        "Edit script"
+    ID_OPEN_FOLDER          "Open script folder"
+    ID_RUN_SELECTED         "Run selected"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+    IDS_TOOLBAR_STANDARD    "Standard"
+    IDS_TOOLBAR_CUSTOMIZE   "Customize..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SCRIPTS_VIEW        "Scripts"
+    IDS_FUNCTIONS_VIEW      "Functions"
+    IDS_OUTPUT_WND          "Output"
+    IDS_PROPERTIES_WND      "Properties"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "Explorer"
+    IDS_EDIT_MENU           "Edit"
+    ID_STATUS_PANE          "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DESCRIPTION_TAB     "Description"
+    IDS_STDOUT_TAB          "Output"
+    IDS_STDERR_TAB          "Error"
+END
+
+STRINGTABLE
+BEGIN
+    ID_POPUP_EXPLORER_NEW_SCRIPT "Create new script"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\Pythagoras.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#if !defined(_AFXDLL)
+#include "afxprint.rc"        // printing/print preview resources
+#include "afxribbon.rc"        // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
