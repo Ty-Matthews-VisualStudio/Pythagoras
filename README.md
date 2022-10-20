@@ -1,2 +1,2 @@
 # Pythagoras
-ETL application written in Visual C++ with embedded Python functionality
+Pythagoras is an ETL application written in Visual C++ with embedded Python functionality.  The primary objective of Pythagoras is to provide the scientific user a method for quickly and easily processing and visualizing data gathered from a variety of scientific instruments that are used on a routine basis.  The application consists of two main parts: a Visual C++ GUI which provides the means to find and select files for processing, as well as choosing which type of data processing to run on those files.  The second part consists of a Python engine which executes Python scripts which do the heavy lifting of actually opening data files, processing the data, and generating the output.  
