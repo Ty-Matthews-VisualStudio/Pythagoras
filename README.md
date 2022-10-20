@@ -3,4 +3,4 @@ Pythagoras is an ETL application written in Visual C++ with embedded Python func
 
 A typical use case is the following.  George has acquired some tensile data for some samples of a new polymer film he is developing.  He would like to be able to process the raw data in a routine way such that the output is generated in a controlled and repeatable way.  He opens Pythagoras, finds the files he recently generated, and then executes the desired function against those files.  The output in this case may be a calculated value of Young's Modulus and yield stress, along with a plot of the stress-strain curve.  The first thing George opens is Pythagoras:
 
-![Pythagoras main screen](/Documentation/Pythagoras.png)
+![Pythagoras main screen](/Documentation/Pythagoras.PNG)
